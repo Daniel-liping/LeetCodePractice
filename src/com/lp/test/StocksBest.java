@@ -28,7 +28,7 @@ public class StocksBest{
     }
 
     // 优势算法
-    public static  int maxProfit(int[] prices) {
+    private static  int maxProfit(int[] prices) {
         if(prices==null || prices.length==0){
             return 0;
         }
@@ -45,7 +45,7 @@ public class StocksBest{
     }
 
     // 穷举法
-    public static  int maxProfit2(int[] prices) {
+    private static  int maxProfit2(int[] prices) {
         if(prices==null || prices.length==0){
             return 0;
         }
@@ -61,7 +61,7 @@ public class StocksBest{
     }
 
     // 采用Math的max和min方法，方法跟 maxProfit 差不多
-    public static  int maxProfit3(int[] prices) {
+    private static  int maxProfit3(int[] prices) {
         if(prices==null || prices.length==0){
             return 0;
         }

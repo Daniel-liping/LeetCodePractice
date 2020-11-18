@@ -20,9 +20,9 @@ public class PalindrRome{
     public static void main(String[] args) {
         System.out.println(longestPalindrome("a"));
     }
-    public static String longestPalindrome(String s) {
+    private static String longestPalindrome(String s) {
         // 先判断是否为空字符串
-        if(s == "" || s.length() == 0){
+        if("".equals(s) || s.length() == 0){
             return "";
         }
         String longStr = "";
