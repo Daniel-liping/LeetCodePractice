@@ -1,4 +1,4 @@
-package com.lp.test;
+package com.lp.leetcode;
 
 /**
  * 买卖股票的最佳时机

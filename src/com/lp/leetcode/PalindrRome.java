@@ -1,4 +1,4 @@
-package com.lp.test;
+package com.lp.leetcode;
 
 /**
  *  5. 最长回文子串
